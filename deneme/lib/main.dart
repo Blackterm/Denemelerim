@@ -1,8 +1,6 @@
-import 'package:deneme/denemeler/deneme3.dart';
-import 'package:deneme/denemeler/deneme4.dart';
-import 'package:deneme/denemeler/deneme5.dart';
-import 'package:deneme/denemeler/deneme6.dart';
+import 'package:deneme/denemeler/sms-otp/sms-otp1.dart';
 import 'package:flutter/material.dart';
+import 'denemeler/deneme1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Deneme",
       debugShowCheckedModeBanner: false,
-      home: OnBoardingPage(),
+      home: SMSOtp(),
     );
   }
 }
